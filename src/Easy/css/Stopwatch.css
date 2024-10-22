@@ -1,0 +1,10 @@
+.stopwatch_interface{
+    background-color: aquamarine;
+    height: 500px;
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

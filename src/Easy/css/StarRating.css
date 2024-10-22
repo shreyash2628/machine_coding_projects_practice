@@ -1,0 +1,27 @@
+.head{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectedbox{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: black;
+    cursor: grab;
+    border-radius: 50%;
+}
+
+.notselectedbox{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: white;
+    cursor: grab;
+    border-radius: 50%;
+}

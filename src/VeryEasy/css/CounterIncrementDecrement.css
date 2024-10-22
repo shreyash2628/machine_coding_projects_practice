@@ -1,0 +1,30 @@
+.container {
+    background-color: #61dafb;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  
+
+  }
+
+  #incrementButton {
+    background-color: aquamarine;
+    margin: 10px;
+    height: 25px;
+    width: 25px;
+  }
+
+  #decrementButton {
+    background-color: aquamarine;
+    margin: 10px;
+    height: 25px;
+    width: 25px;
+  }

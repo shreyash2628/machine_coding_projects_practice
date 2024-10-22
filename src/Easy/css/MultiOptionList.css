@@ -1,0 +1,63 @@
+.mainContainer{
+    background-color: cadetblue;
+    height: 100%;
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectOption{
+    width: 300px;
+   border: 20px;
+   border-color: black;
+   height: 40px;  
+   background-color: bisque;
+   cursor: grab;
+}
+
+.optionList{
+    height: 300px;
+    border: 30px;
+    background-color: beige;
+    width: 300px;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.optionsButton{
+    margin-top: 20px;
+    background-color: beige;
+    text-align: start;
+    border-color: beige;
+    cursor: grab;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.emptyDiv{
+    height: 500px;
+    border: 30px;
+    width: 300px;
+}
+
+.selectedOptions{
+    height: 100px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+}
+
+.selectedOptionsButton{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+
+}
